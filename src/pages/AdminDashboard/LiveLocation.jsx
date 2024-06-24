@@ -11,7 +11,7 @@ const LiveLocation = () => {
   const [driverDetails, setDriverDetails] = useState([])
   const [map, setMap] = useState(/** @type  google.maps.Map */ (null));
 
-  const google_api = "AIzaSyD20F4BQVuvR6RDNum0VzfHoO0W4u5UTH4"
+    const google_api = "Google_API_KEY"
  
   const { isLoaded } = useJsApiLoader({
     googleMapsApiKey: google_api,

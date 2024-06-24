@@ -7,7 +7,7 @@ const googleMapsLibraries = ['places'];
 
 const ReserveTaxi = () => {
   // Replace the placeholder with your actual Google Maps API key
-  const google_api = "AIzaSyD20F4BQVuvR6RDNum0VzfHoO0W4u5UTH4";
+    const google_api = "Google_API_KEY";
   
   // State to store driver details and map instance
   const [driverDetails, setDriverDetails] = useState([]);

@@ -35,7 +35,7 @@ import { FaTaxi } from "react-icons/fa6"
 import { Skeleton } from '@mui/material';
 const googleMapsLibraries = ['places'];
 const GuestReseravtion = () => {
-  const google_api = "AIzaSyD20F4BQVuvR6RDNum0VzfHoO0W4u5UTH4"
+    const google_api = "Google_API_KEY"
   const { currentColor, currentMode } = useStateContext();
   const [userLocation, setUserLocation] = useState(null);
   const [pickupLocation, setPickupLocation] = useState(null);

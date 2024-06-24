@@ -37,7 +37,7 @@ const PassengerDashboard = () => {
   const { currentColor, currentMode } = useStateContext();
   const [userLocation, setUserLocation] = useState(null); // Correct usage of useState
   const [directions, setDirections] = useState(null);
-  const google_api = "AIzaSyD20F4BQVuvR6RDNum0VzfHoO0W4u5UTH4"
+    const google_api = "Google_API_KEY"
   const [map, setMap] = useState(/** @type  google.maps.Map */(null));
   const [pickupCoordinates, setPickupCoordinates] = useState(null);
   const [destinationCoordinates, setDestinationCoordinates] = useState(null);

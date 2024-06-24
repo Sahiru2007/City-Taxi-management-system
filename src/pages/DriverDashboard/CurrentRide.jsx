@@ -52,7 +52,7 @@ const dummyDrivers = [
 ];
 const googleMapsLibraries = ['places'];
 const CurrentRide = () => {
-  const google_api = "AIzaSyD20F4BQVuvR6RDNum0VzfHoO0W4u5UTH4"
+  const google_api = "Google_API_KEY"
   const { currentColor } = useStateContext();
   const [userLocation, setUserLocation] = useState(null);
   const [driverId, setDriverId] = useState(null);
