@@ -118,8 +118,6 @@ City Taxi Management System is a web-based reservation system for City Taxi (PVT
 #### Class Diagram
 <img width="1528" alt="Screenshot 2024-06-24 at 22 49 39" src="https://github.com/Sahiru2007/City-Taxi-management-system/assets/75121314/5fe3d0ed-2a16-4252-9a1d-847515f5df0a">
 
-#### Sequence Diagram
-![Sequence Diagram](path/to/sequence-diagram.png)
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure that your code follows the project's coding standards and includes appropriate tests.
